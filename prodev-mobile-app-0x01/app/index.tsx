@@ -1,4 +1,3 @@
-@"
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -44,4 +43,3 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
-"@ | Set-Content -Encoding Ascii .\prodev-mobile-app-0x01\app\index.tsx
