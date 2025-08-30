@@ -1,13 +1,11 @@
+@"
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* Main Entry Text */}
       <Text>Entry Screen - Awesome</Text>
-
-      {/* Additional Text Components */}
       <View>
 <Text style={styles.largeText}>Typescript is great if you practice more</Text>
   <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
@@ -46,3 +44,4 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+"@ | Set-Content -Encoding Ascii .\prodev-mobile-app-0x01\app\index.tsx
