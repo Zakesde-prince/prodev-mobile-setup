@@ -13,6 +13,7 @@ export default function Index() {
           <Image source={require("@/assets/images/logo.png")} />
         </View>
 
+
         {/* Title */}
         <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
